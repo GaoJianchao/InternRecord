@@ -18,7 +18,7 @@ import copy
 
 class NetSpider():
 
-    def __init__(self, page=15):
+    def __init__(self):
         ua = UserAgent()
         self.base_url = 'https://music.163.com'
         self.ids = ['1001', '1002', '1003']  #
