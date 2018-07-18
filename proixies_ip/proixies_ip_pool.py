@@ -19,7 +19,7 @@ import random
 class ProixyIP:
 
     ua = UserAgent()
-    protocol = 'http://'  #  python2.7只支持http代理，故此处仅有http
+    protocol = 'http://'  #  仅设定为http代理，可扩展为https
     proxies = list()  # 存储爬取并验证后的代理ip
 
     def __init__(self, page=3, filename='all.proxies.txt'):
