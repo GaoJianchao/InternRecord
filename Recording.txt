@@ -1,0 +1,8 @@
+1.python2.7之前，不支持关键词参数，所以使用decode('编码方式', errors='ignore')会导致错误
+直接使用decode('编码方式', 'ignore')就可以
+
+2.python2.7和python3.6版本在使用上，open函数上存在区别2.7版本的不允许直接在open中指明编码方式
+只能在write的时候进行encode.而3.6版本可以直接在open中声明encoding和errors的处理方式。所以2.7版
+本和3.6版本的代码进行转换的时候尤为注意对字符的处理。2.7默认为Unicode，3.6默认是str。
+
+3.
