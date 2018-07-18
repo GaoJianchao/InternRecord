@@ -5,4 +5,4 @@
 只能在write的时候进行encode.而3.6版本可以直接在open中声明encoding和errors的处理方式。所以2.7版
 本和3.6版本的代码进行转换的时候尤为注意对字符的处理。2.7默认为Unicode，3.6默认是str。
 
-3.
+3.Chrome浏览器爬虫插件：JSONView
