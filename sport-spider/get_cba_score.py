@@ -3,11 +3,7 @@
 # @Time    : 2018/6/26 10:09
 # @Author  : zql
 # @Site    : 
-<<<<<<< HEAD
 # @Version : 3.6
-=======
-# python   : 2.7
->>>>>>> 0079e4c5211c6adc332a86fb74a79d86780d06a9
 # @File    : get_cba_score.py
 # @Software: PyCharm
 import requests

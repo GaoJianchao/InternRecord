@@ -104,7 +104,7 @@
 
     网址：<http://china.nba.com/static/data/league/playerlist.json>
 
-    获取NBA主流球队中球员-球队-位置-国家的信息，
+    获取NBA主流球队中球员-球队-位置-国家的信息
 
     例如：凯尔 安德森	灰熊	前锋	美国
 + get-football_score
